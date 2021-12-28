@@ -1,6 +1,6 @@
-package example.impl;
+package example.module1;
 
-import example.Hello1;
+import example.module1.Hello1;
 
 public class MyHello1 implements Hello1 {
   @Override

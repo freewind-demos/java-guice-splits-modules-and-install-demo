@@ -1,9 +1,8 @@
-package example;
+package example.module1;
 
 import com.google.inject.AbstractModule;
-import example.impl.MyHello1;
 
-public class MyModule extends AbstractModule {
+public class MyModule1 extends AbstractModule {
 
   @Override
   protected void configure() {
