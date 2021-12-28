@@ -5,10 +5,10 @@ import com.google.inject.Injector;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Injector injector = Guice.createInjector(new BillingModule());
-        BillingService billingService = injector.getInstance(BillingService.class);
-        String bill = billingService.bill("Freewind");
-        System.out.println(bill);
-    }
+  public static void main(String[] args) {
+    Injector injector = Guice.createInjector(new MyModule());
+    MyService myService = injector.getInstance(MyService.class);
+    String message = myService.sayHello("Freewind");
+    System.out.println(message);
+  }
 }
