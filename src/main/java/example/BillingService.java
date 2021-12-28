@@ -1,6 +1,7 @@
 package example;
 
-import com.google.inject.Inject;
+
+import javax.inject.Inject;
 
 public class BillingService {
 
