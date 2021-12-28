@@ -1,5 +1,5 @@
 package example;
 
-public interface Hello {
+public interface Hello1 {
     String hello(String user);
 }
